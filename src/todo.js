@@ -19,7 +19,6 @@ const ToDo = ({editTask, todo, toggleTask, removeTask}) => {
 
     const OnTaskChange = (e) => {
         setUserInput(e.currentTarget.value);
-
     }
 
     return (

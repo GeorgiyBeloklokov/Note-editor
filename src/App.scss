@@ -8,7 +8,7 @@ $button-color-text: #011086;
     width: 250px;
     text-align: left;
     margin: 15px auto 0;
-    background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+    background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgb(155, 0, 250) 100%);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -17,6 +17,8 @@ $button-color-text: #011086;
     .item-text {
       display: inline-block;
       cursor: pointer;
+      max-width: 180px;
+      word-wrap: break-word;
     }
   }
 
